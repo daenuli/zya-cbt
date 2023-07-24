@@ -28,7 +28,7 @@ services:
     networks:
       codeigniter_net:
     ports:
-      - 3306:3306
+      - 3350:3306
     env_file:
       - .env
 
